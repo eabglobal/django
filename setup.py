@@ -58,7 +58,9 @@ EXCLUDE_FROM_PACKAGES = ['django.conf.project_template',
 
 
 # Dynamically calculate the version based on django.VERSION.
-version = __import__('django').get_version()
+# version = __import__('django').get_version()
+# For internal eab purpose.
+version = 'v1.0.0'
 
 
 def read(fname):
